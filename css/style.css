@@ -8,7 +8,7 @@ body {
 }
 
 .jumbotron {
-        background-color: #0950A0 !important; 
+        background-color: #00798A !important; 
     }
 
 .navbar-brand {
@@ -32,7 +32,7 @@ body {
 }
 
 .navbar a {
-    color: #0950A0 !important;
+    color: #00798A !important;
 }
 
 .navbar a:hover{
@@ -44,7 +44,7 @@ body {
 }
 
 
-.navbar-nav > li > .dropdown-menu { background-color:  #0950A0; }
+.navbar-nav > li > .dropdown-menu { background-color:  #00798A; }
 
  .navbar-nav > li > .dropdown-menu a{   color: #FFFFFF;  }
 
@@ -58,14 +58,14 @@ body {
 }
 
 .btn-primary, .btn-primary:active, .btn-secondary, .btn-secondary:active{
-	background-color: #0950A0  !important;
-	border-color : #0950A0 !important;
+	background-color: #00798A  !important;
+	border-color : #00798A !important;
 	color: white !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-secondary:hover, .btn-secondary:focus{
-    background-color: #99CEE4 !important;
-		border-color: #0950A0 !important;
+    background-color: #00798A !important;
+		border-color: #00798A !important;
 		color: black !important;
 }*/
  
