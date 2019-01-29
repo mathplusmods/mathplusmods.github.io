@@ -1,0 +1,99 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+html body{
+background-color : #FFFFFFF;
+}
+body {
+  padding-top: 2rem;
+}
+
+.jumbotron {
+        background-color: #0950A0 !important; 
+    }
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 0.05px;
+  width: auto;
+}
+
+.navbar-default {
+
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.navbar a {
+    color: #0950A0 !important;
+}
+
+.navbar a:hover{
+	color: #99CEE4 !important;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(184, 153, 129, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+
+.navbar-nav > li > .dropdown-menu { background-color:  #0950A0; }
+
+ .navbar-nav > li > .dropdown-menu a{   color: #FFFFFF;  }
+
+/*.navbar-nav > li > .dropdown-menu a:hover {background-color: #0000CD;}*/
+
+.navbar-nav li a:hover, .navbar-nav > .active > a {
+  color: #000000 !important;
+
+  background-color:#FFFFFF!important;
+  background-image: none !important;
+}
+
+.btn-primary, .btn-primary:active, .btn-secondary, .btn-secondary:active{
+	background-color: #0950A0  !important;
+	border-color : #0950A0 !important;
+	color: white !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-secondary:hover, .btn-secondary:focus{
+    background-color: #99CEE4 !important;
+		border-color: #0950A0 !important;
+		color: black !important;
+}*/
+ 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 0.5px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 1px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
